@@ -1,0 +1,13 @@
+{
+    "name": "jiangdl/silex-test",
+    "description": "composer test",
+    "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jiangdl\\SilexTest\\": "module/SilexTest/src/"
+        }
+    }
+}
